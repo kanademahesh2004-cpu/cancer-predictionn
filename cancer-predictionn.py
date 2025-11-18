@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-df = pd.read_csv("C:\\Users\\admin\\Downloads\\gene_expression.csv")
+df = pd.read_csv("gene_expression.csv")
 df
 
 df.shape
