@@ -23,12 +23,6 @@ df.tail()
 plt.scatter(x=df["Gene One"],y=df["Gene Two"])
 plt.show()
 
-sns.scatterplot(data=df,x=df["Gene One"],y=df["Gene Two"],hue="Cancer Present")
-# plt.xlim(2,8)
-# plt.ylim(2,6)
-plt.show()
-
-
 x = df.iloc[0:,0:2]
 y = df.iloc[0:,2]
 print(y)
